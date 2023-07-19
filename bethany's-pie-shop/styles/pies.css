@@ -1,0 +1,39 @@
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+    .columns-desktop {
+        display: flex;
+    }
+}
+
+.pie {
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+    border: solid 1px #ccc;
+}
+
+.pie img {
+    width: 100%;
+}
+
+.pie .title {
+    font-weight: bold;
+}
+
+.pie button {
+    background-color: rgb(76, 205, 168);
+    padding: 10px;
+    border: solid 1px #46a6ea;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    transform: scale(1.05);
+}
